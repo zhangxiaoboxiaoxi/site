@@ -1,0 +1,135 @@
+.wrap_header{
+	width:100%;
+	background:#333333;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:10000;
+	
+}
+.wrap_header .header{
+	width:1000px;
+	margin:0 auto;
+}
+.wrap_header .header .logo{
+	width:266px;
+	float:left;
+	padding-top:11px;
+}
+.wrap_header .header nav{
+	width:734px;
+	float:left;
+}
+.wrap_header .header nav ul li{
+	width:94px;
+	float:left;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	transition:all .5s ease;
+}
+.wrap_header .header nav ul li:nth-of-type(8){
+	background:#5C5C5C;
+}
+.wrap_header .header .menu-click,
+.wrap_header .header .word,
+.wrap_header .header .menu-total{
+	display:none;
+}
+.wrap_header .header ul li a{
+	display:inline-block;
+	font-size:14px;
+	color:#fff;
+	font-family:"microsoft yahei";
+}
+.wrap_header .header nav ul li:first-of-type{
+	width:65px;
+}
+.wrap_header .header nav ul li:hover{
+	background:#5C5C5C;
+}
+/*.main开始*/
+.container{
+	margin-top:120px;
+}
+.main{
+	width:1000px;
+	margin:0 auto;
+	padding-bottom:70px;
+	text-align:center;
+}
+.main h4{
+	height:50px;
+	line-height:50px;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	color:#fa9634;
+	font-family:"microsoft yahei";
+}
+.main p{
+	text-align:center;
+}
+.main p:nth-of-type(1){
+	height:36px;
+	line-height:36px;
+	font-size:22px;
+	font-weight:bold;
+	font-family:"microsoft yahei";
+}
+.main p:nth-of-type(2){
+	height:38px;
+	line-height:38px;
+}
+.main p span{
+	display:inline-block;
+	margin-left:40px;
+	font-size:22px;
+	font-weight:bold;
+	font-family:"microsoft yahei";
+}
+.main p span:nth-of-type(1){
+	margin-left:0;
+}
+.main p:last-of-type{
+	line-height:36px;
+	font-size:16px;
+}
+.main img{
+	margin-top:32px;
+}
+/*footer开始*/
+.wrap-footer{
+	background:#333333;
+}
+ .wrap-footer .footer{
+	width:1001px;
+	padding:44px 0 53px 0;
+	margin:0 auto;
+}
+.footer ul li{
+	width:242px;
+	float:left;
+}
+.footer ul li:last-of-type{
+	width:265px;
+}
+.footer ul li p{
+	font-size:14px;
+	color:#fff;
+	font-family:"microsoft yahei";
+	line-height:30px;
+}
+.menu-lesson,.menu-work,.menu-star,.menu-job{
+	display:block;
+}
+#job-top,#job-bottom,#star-top,#star-bottom,#works-bottom,#works-top,
+#lesson-bottom,#lesson-top{
+	display:none;
+}
+body{
+	overflow-x:hidden;
+}
+
+
+

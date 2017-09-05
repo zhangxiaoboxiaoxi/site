@@ -1,0 +1,18 @@
+html{
+	font-size:65.5%;
+}
+.wrap_header{
+	width:100%;
+	background:#333333;
+}
+.wrap_footer{
+	width:100%;
+	background:#333333;	
+}
+.none{
+	display:none;
+}
+.header,.server,.campus,.works,.wrap_footer div,.lesson.employment.star{
+	max-width:1001px;
+	min-width:350px;
+}

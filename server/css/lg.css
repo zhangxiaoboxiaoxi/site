@@ -1,0 +1,183 @@
+.wrap_header{
+	width:100%;
+	background:#333333;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:10000;
+	
+}
+.wrap_header .header{
+	width:1000px;
+	margin:0 auto;
+}
+.wrap_header .header .logo{
+	width:266px;
+	float:left;
+	padding-top:11px;
+}
+.wrap_header .header nav{
+	width:734px;
+	float:left;
+}
+.wrap_header .header nav ul li{
+	width:94px;
+	float:left;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	transition:all .5s ease;
+}
+.wrap_header .header nav ul li:nth-of-type(7){
+	background:#5C5C5C;
+}
+.wrap_header .header .menu-click,
+.wrap_header .header .word,
+.wrap_header .header .menu-total{
+	display:none;
+}
+.wrap_header .header ul li a{
+	display:inline-block;
+	font-size:14px;
+	color:#fff;
+	font-family:"microsoft yahei";
+}
+.wrap_header .header nav ul li:first-of-type{
+	width:65px;
+}
+.wrap_header .header nav ul li:hover{
+	background:#5C5C5C;
+}
+/*.main 开始*/
+.main{
+	width:1000px;
+	margin:0 auto;
+	margin-top:120px;
+}
+.main .left{
+	width:250px;
+	float:left;
+	padding-right:15px;
+	border-right:1px solid #bbbbbb;
+}
+.main .left h2 a{
+	display:block;
+	height:77px;
+	line-height:77px;
+	padding-left:90px;
+	border-bottom:3px solid #fff;
+	font-size:22px;
+	color:#222;
+	font-family:"microsoft yahei";
+	font-weight:normal;
+}
+.main .left h2:nth-of-type(1) a{
+	background:url(../images/service_04.jpg) no-repeat 20px center;
+	border-bottom:3px solid #fa9634;
+}
+.main .left h2:nth-of-type(2) a{
+	background:url(../images/service_05.jpg) no-repeat 20px center;
+}
+.main .left h2:nth-of-type(3) a{
+	background:url(../images/service_08.jpg) no-repeat 20px center;
+}
+.main .left h2:nth-of-type(4) a{
+	background:url(../images/service_10.jpg) no-repeat 20px center;
+}
+.main .left h2:nth-of-type(1) a:hover{
+	background:url(../images/service_04.jpg) no-repeat 20px center;
+	border-bottom:3px solid #fa9634;
+}
+.main .left h2:nth-of-type(2) a:hover{
+	background:url(../images/service_06.jpg) no-repeat 20px center;
+	border-bottom:3px solid #fa9634;
+}
+.main .left h2:nth-of-type(3) a:hover{
+	background:url(../images/service_09.jpg) no-repeat 20px center;
+	border-bottom:3px solid #fa9634;
+}
+.main .left h2:nth-of-type(4) a:hover{
+	background:url(../images/service_11.jpg) no-repeat 20px center;
+	border-bottom:3px solid #fa9634;
+}
+.main .right{
+	padding-right:11px;
+	padding-left:50px;
+	padding-bottom:100px;
+	width:673px;
+	float:left;
+}
+.main .right h4{
+	height:25px;
+	line-height:25px;
+	color:#fa9634;
+	font-family:"microsoft yahei";
+	font-size:18px;
+	margin-top:18px;
+}
+.main .right h4:nth-of-type(1){
+	margin-top:0;
+}
+.main .right h4:nth-of-type(2){
+	margin-right:12px;
+}
+.main .right h4 span{
+	display:inline-block;
+	font-size:16px;
+	color:#222;
+	font-family: "microsoft yahei";
+	font-weight:normal;
+} 	　	　　
+.main .right p:last-of-type{
+	margin-top:9px;
+	margin-bottom:100px;
+}
+.main .right ul{
+	margin-top:18px;
+}
+.main .right ul li{
+	margin-top:20px;
+}
+.main .right ul li:nth-of-type(1){
+	margin-top:0;
+}
+.main .right p{
+	line-height:36px;
+	font-size:16px;
+	color:#222;
+	font-family:"microsoft yahei";
+	margin-top:9px;
+}
+
+/*footer开始*/
+.wrap-footer{
+	background:#333333;
+}
+ .wrap-footer .footer{
+	width:1001px;
+	padding:44px 0 53px 0;
+	margin:0 auto;
+}
+.footer ul li{
+	width:245px;
+	float:left;
+}
+.footer ul li:last-of-type{
+	width:265px;
+}
+.footer ul li p{
+	font-size:14px;
+	color:#fff;
+	font-family:"microsoft yahei";
+	line-height:30px;
+}
+.menu-lesson,.menu-work,.menu-star,.menu-job{
+	display:block;
+}
+#job-top,#job-bottom,#star-top,#star-bottom,#works-bottom,#works-top,
+#lesson-bottom,#lesson-top{
+	display:none;
+}
+
+
+

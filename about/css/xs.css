@@ -1,0 +1,149 @@
+.wrap_header .header{
+	width:100%;
+	margin:0 auto;
+	background:#333333;
+	position:relative;
+}
+.wrap_header .header .logo{
+	width:25.2%;
+	float:left;
+	padding:3.1% 0 1% 1.5%;
+}
+.wrap_header .header .logo img{
+	width:100%;
+}
+.wrap_header .header nav,
+.wrap_header .header .word{
+	display:none;
+}
+.wrap_header .word{
+	display:block;
+	position:absolute;
+	color:#fff;
+	font-size:1em;
+	top:35%;
+	left:50%;
+}
+.wrap_header .header .menu-click{
+	width:7%;
+	position:absolute;
+	top:15px;
+	right:3%;
+}
+.wrap_header .header .menu-click img{
+	width:100%;
+}
+.menu-total{
+	width:100%;
+	/*z-index:1000;*/
+	float:right;
+	position:relative;
+}
+.menu-total li{
+	height:30px;
+	line-height:30px;
+	background:#5C5C5C;
+	width:25%;
+	float:left;
+	text-align:center;
+}
+.menu-total li a{
+	font-size:0.75em;
+	color:#DCDCDC;
+	font-family:"microsoft yahei";
+}
+.menu-total li a{
+	font-size:0.75em;
+	color:#DCDCDC;
+	font-family:"microsoft yahei";
+}
+.wrap_header .menu-total li:nth-of-type(2) a{
+	width:80%;
+	display:inline-block;
+	background:#85858D;
+}
+/*header结束*/
+
+/*.main开始*/
+.main{
+	padding:0 15px;
+	margin:0 auto;
+}
+.main .left{
+	width:100%;
+	margin:0 auto;
+	margin-bottom:15px;
+}
+.main .left h2 a{
+	display:block;
+	width:26.9%;
+	padding-left:18.1%;
+	float:left;
+	height:77px;
+	line-height:77px;
+	font-size:0.75em;
+	color:#222;
+	font-family:"microsoft yahei";
+	font-weight:normal;
+	border-bottom:3px solid #fff;
+	background:url(../images/school-in_03.jpg) no-repeat 12% center;
+}
+.main .left h2:nth-of-type(2) a{
+	background:url(../images/school_06.jpg) no-repeat 12% center;
+	margin-right:0;
+}
+.main .left h2:nth-of-type(1) a{
+	background:url(../images/school_03.jpg) no-repeat 12% center;
+	border-bottom:3px solid #fa9634;
+	margin-left:8%;
+}
+.main .right p{
+	font-size:16px;
+	font-family:"microsoft yahei";
+	line-height:30px;
+	text-indent:32px;
+	font-weight:normal;
+}
+.main .right p:last-of-type{
+	margin-top:29px;
+	margin-bottom:64px;
+}
+.main .right img{
+	margin-top:17px;
+	margin-bottom:32px;
+	width:100%;
+}
+
+
+/*footer开始*/
+.wrap-footer .footer{
+	padding:5% 4%;
+	width:92%;
+	margin:0 auto;
+	background:#333333;
+	padding-bottom:40px;
+}
+.wrap-footer ul li{
+	width:80%;
+	margin-bottom:3%;
+	margin-left:20%;
+}
+.wrap-footer ul li:nth-of-type(4){
+	width:100%;
+	margin-left:0;
+	text-align:center;
+	margin-bottom:3%;
+}
+.wrap-footer ul li p{	
+	font-size:1em;
+	color:#eafefd;
+	font-family:"microsoft yahei";
+	height:30px;
+	line-height:30px;
+}
+
+
+
+
+
+

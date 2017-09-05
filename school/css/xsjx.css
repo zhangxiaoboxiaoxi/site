@@ -1,0 +1,8 @@
+@charset "utf-8";
+/* CSS Document */
+.content .right{padding-bottom:40px;}
+.content .right .div{
+	width: 694px;
+	height: 490px;
+}
+.content .right p{font-size:16px; line-height:30px; text-indent:32px;}

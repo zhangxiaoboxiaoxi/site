@@ -1,0 +1,307 @@
+.wrap_header div{
+	width:100%;
+	margin:0 auto;
+}
+.wrap_header .header .menu-click,
+.wrap_header .header .word,
+.wrap_header .header .menu-total{
+	display:none;
+}
+.wrap_header div .logo{
+	width:23.5%;
+	float:left;
+	padding-left:1.5%;
+	padding-top:1.1%;
+}
+.wrap_header div nav{
+	width:74.2%;
+	float:left;
+}
+
+.wrap_header div nav ul li{
+	width:11.8%;
+	float:left;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	
+	transition:all .5s ease;
+}
+.wrap_header div ul li a{
+	display:inline-block;
+	font-size:1em;
+	color:#fefcff;
+	font-family:"microsoft yahei";
+}
+.wrap_header div nav ul li:nth-of-type(1){
+	width:10.4%;
+	background:#5C5C5C;
+}
+/*header结束*/
+/*server开始*/
+.server{
+	padding:0 15px;
+}
+.sub_server{
+	width:100%;
+	margin:0 auto;
+}
+.server h2{
+	height:411%;
+	line-height:411%;
+	font-size:2em;
+	color:#200100;
+	font-family:simhei;
+}
+.server ul li h3{
+	font-size:1.125em;
+	color:#1b140e;
+	font-family:simhei;
+	margin-bottom:16px;
+}
+.server ul li p{
+	font-family:"microsoft yahei";
+	font-size:1em;
+	color:#85858d;
+	padding-bottom:9px;
+}
+.server ul li{
+	width:24%;
+	float:left;
+}
+.server ul li a{
+	display:block;
+	width:100%;
+	float:left;
+	padding-top:60px;
+	text-align:center;
+	transition:all .5s ease;
+	border-bottom:1px solid rgba(252,150,50,0);
+	background:url(../images/service_1_1.jpg) no-repeat 50% 0;
+}
+.server ul li:nth-of-type(2) a{
+	background:url(../images/service_2_1.jpg) no-repeat 50% 0;
+}
+.server ul li:nth-of-type(3) a{
+	background:url(../images/service_3_1.jpg) no-repeat 50% 0;
+}
+.server ul li:nth-of-type(4) a{
+	background:url(../images/service_4_1.jpg) no-repeat 50% 0;
+}
+/*.lesson开始*/
+.lesson{
+	padding:0 15px;
+}
+.sub_lesson{
+	width:100%;
+	margin:0 auto;
+}
+.lesson h2{
+	height:411%;
+	line-height:411%;
+	font-size:2em;
+	color:#200100;
+	font-family:simhei;
+}
+.lesson ul{
+	border:0.5% solid #DCDCDC;
+}
+.lesson ul li{
+	width:33.333%;
+	float:left;
+	text-align:center;
+	height:203px;
+	overflow:hidden;
+	position:relative;
+}
+.lesson ul li img{
+	display:block;
+	margin:0 auto;
+	margin-top:17px;
+}
+.lesson ul li a{
+	display:block;
+	padding-top:20px;
+	font-size:22px;
+	color:#282828;
+	font-family:simhei;
+}
+.lesson ul li a div{
+	display:none;
+}
+/*.campus开始*/
+.campus{
+	padding:0 15px;
+	margin:0 auto;
+}
+.sub_capmus{
+	width:100%;
+}
+.campus h2{
+	width:50%;
+	float:left;
+	height:411%;
+	line-height:411%;
+	font-size:2em;
+	color:#200100;
+	font-family:simhei;
+}
+.campus header a{
+	display:block;
+	width:48%;
+	padding-right:2px;
+	text-align:right;
+	float:right;
+	font-size:1em;
+	color:#fe9039;
+	font-family:"microsoft yahei";
+	height:124px;
+	line-height:124px;
+}
+.campus ul li{
+	width:32%;
+	float:left;
+	margin-right:2%;
+}
+.campus ul li:nth-of-type(3n){
+	margin-right:0;
+}
+.campus ul li img{
+	width:100%;
+}
+.campus ul li h3 a{
+	display:block;
+	height:37px;
+	line-height:37px;
+	color:#4c2625;
+	font-size:1em;
+	font-family:simhei;
+}
+.campus ul li p{
+	height:16px;
+	line-height:16px;
+	color:#848889;
+	font-family:"microsoft yahei";
+	margin-bottom:38px;
+}
+/*.works开始*/
+.works{
+	padding:0 15px;
+}
+.sub_work{
+	width:100%;
+	margin:0 auto;
+}
+.works h2{
+	height:411%;
+	line-height:411%;
+	font-size:2em;
+	color:#200100;
+	font-family:simhei;
+}
+.works ul li{
+	width:20%;
+	float:left;
+	position:relative;
+	text-align:center;
+}
+.works ul li div{
+	display:none;
+}
+.works ul li img{
+	width:100%;
+	display:block;
+}
+/*.star开始*/
+.star{
+	padding:0 15px;
+}
+.sub_star{
+	width:100%;
+	margin:0 auto;
+}
+.star h2{
+	height:411%;
+	line-height:411%;
+	font-size:2em;
+	color:#200100;
+	font-family:simhei;
+}
+.star ul li{
+	width:32%;
+	float:left;
+	margin-right:2%;
+	margin-bottom:2%;
+}
+.star ul li:nth-of-type(3n){
+	margin-right:0;
+}
+.star ul li img{
+	display:block;
+	width:100%;
+}
+.star ul li div{
+	display:none;
+}
+/*.employment开始*/
+.employment{
+	padding:0 15px;
+}
+.sub_employment{
+	width:100%;
+	margin:0 auto;
+}
+.employment h2{
+	height:411%;
+	line-height:411%;
+	font-size:2em;
+	color:#200100;
+	font-family:simhei;
+}
+.employment ul li{
+	width:32%;
+	margin-right:2%;
+	margin-bottom:1.6%;
+	float:left;
+}
+.employment ul li img{
+	width:100%;
+}
+.employment ul li:nth-of-type(3n){
+	margin-right:0;
+}
+.employment{
+	margin-bottom:12px;
+}
+/*footer开始*/
+.wrap-footer .footer{
+	padding:5% 4%;
+	width:92%;
+	margin:0 auto;
+	background:#333333;
+}
+.wrap-footer ul li{
+	float:left;
+	width:60%;
+	margin-bottom:3%;
+}
+.wrap-footer ul li:nth-of-type(2n){
+	width:40%;
+}
+.wrap-footer ul li p{	
+	font-size:1em;
+	color:#eafefd;
+	font-family:"microsoft yahei";
+	height:30px;
+	line-height:30px;
+}
+.menu-lesson,.menu-work,.menu-star,.menu-job{
+	display:block;
+}
+#job-top,#job-bottom,#star-top,#star-bottom,#works-bottom,#works-top,
+#lesson-bottom,#lesson-top{
+	display:none;
+}
+
+
+

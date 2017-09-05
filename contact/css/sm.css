@@ -1,0 +1,148 @@
+.wrap_header .header{
+	width:100%;
+	margin:0 auto;
+	background:#333333;
+	position:relative;
+}
+.wrap_header .header .logo{
+	width:25.2%;
+	float:left;
+	padding-left:1.5%;
+	padding-top:1.1%;
+}
+.wrap_header .header .logo img{
+	width:100%;
+}
+.wrap_header .header nav{
+	display:none;
+}
+.wrap_header .word{
+	display:block;
+	position:absolute;
+	color:#fff;
+	font-size:1.125em;
+	top:20px;
+	left:50%;
+}
+.wrap_header .header .menu-click{
+	width:6%;
+	position:absolute;
+	top:15px;
+	right:3%;
+}
+.wrap_header .header .menu-click img{
+	width:100%;
+}
+.menu-total{
+	width:100%;
+	/*z-index:1000;*/
+	float:right;
+	position:relative;
+}
+.menu-total li{
+	height:30px;
+	line-height:30px;
+	background:#5C5C5C;
+	width:12.5%;
+	float:left;
+	text-align:right;
+	text-align:center;
+}
+.menu-total li a{
+	font-size:14px;
+	color:#DCDCDC;
+	font-family:"microsoft yahei";
+}
+.menu-total li a{
+	font-size:0.75em;
+	color:#DCDCDC;
+	font-family:"microsoft yahei";
+}
+.wrap_header .menu-total li:nth-of-type(8) a{
+	width:85%;
+	display:inline-block;
+	background:#85858D;
+}
+/*header结束*/
+/*.main开始*/
+.container{
+	padding:0 15px;
+	margin:0 auto;
+	margin-top:30px;
+}
+.container .main{
+	width:100%;
+	text-align:center;
+	padding-bottom:50px;
+}
+.main h4{
+	height:50px;
+	line-height:50px;
+	font-size:18px;
+	font-weight:bold;
+	text-align:center;
+	color:#fa9634;
+	font-family:"microsoft yahei";
+}
+.main p{
+	text-align:center;
+}
+.main p:nth-of-type(1){
+	height:36px;
+	line-height:36px;
+	font-size:22px;
+	font-weight:bold;
+	font-family:"microsoft yahei";
+}
+.main p:nth-of-type(2){
+	height:38px;
+	line-height:38px;
+}
+.main p span{
+	display:inline-block;
+	margin-left:40px;
+	font-size:22px;
+	font-weight:bold;
+	font-family:"microsoft yahei";
+}
+.main p span:nth-of-type(1){
+	margin-left:0;
+}
+.main p:last-of-type{
+	line-height:36px;
+	font-size:16px;
+}
+.main img{
+	width:100%;
+	margin-top:32px;
+}
+/*footer开始*/
+.wrap-footer .footer{
+	padding:5% 4%;
+	padding-bottom:2%;
+	width:92%;
+	margin:0 auto;
+	background:#333333;
+}
+.wrap-footer ul li{
+	float:left;
+	width:45%;
+	margin-bottom:3%;
+}
+.wrap-footer ul li:nth-of-type(2n){
+	width:55%;
+}
+.wrap-footer ul li p{	
+	font-size:0.75em;
+	color:#eafefd;
+	font-family:"microsoft yahei";
+	height:30px;
+	line-height:30px;
+}
+.menu-lesson,.menu-work,.menu-star,.menu-job{
+	display:block;
+}
+#job-top,#job-bottom,#star-top,#star-bottom,#works-bottom,#works-top,
+#lesson-bottom,#lesson-top{
+	display:none;
+}

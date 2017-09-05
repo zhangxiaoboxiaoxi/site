@@ -1,0 +1,201 @@
+.wrap_header{
+	width:100%;
+	background:#333333;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:10000;
+	
+}
+.wrap_header .header{
+	width:1000px;
+	margin:0 auto;
+}
+.wrap_header .header .logo{
+	width:266px;
+	float:left;
+	padding-top:11px;
+}
+.wrap_header .header nav{
+	width:734px;
+	float:left;
+}
+.wrap_header .header nav ul li{
+	width:94px;
+	float:left;
+	height:80px;
+	line-height:80px;
+	text-align:center;
+	transition:all .5s ease;
+}
+.wrap_header .header nav ul li:nth-of-type(3){
+	background:#5C5C5C;
+}
+.wrap_header .header .menu-click,
+.wrap_header .header .word,
+.wrap_header .header .menu-total{
+	display:none;
+}
+.wrap_header .header ul li a{
+	display:inline-block;
+	font-size:14px;
+	color:#fff;
+	font-family:"microsoft yahei";
+}
+.wrap_header .header nav ul li:first-of-type{
+	width:65px;
+}
+.wrap_header .header nav ul li:hover{
+	background:#5C5C5C;
+}
+/*.main开始*/
+.container{
+	margin-top:120px;
+}
+.main{
+	width:1000px;
+	margin:0 auto;
+}
+.main .left{
+	width:265px;
+	padding-right:15px;
+	float:left;
+	border-right:1px solid #bbbbbb;
+	margin-bottom:163px;
+}
+.main .left h2{
+	border-bottom:3px solid #fff;
+}
+.main .left h2:first-of-type{
+	background:url(../images/design_03.jpg) no-repeat 20px center;
+	border-bottom:3px solid #fa9634;
+}
+.main .left h2:nth-of-type(2){
+	background:url(../images/sign_06.jpg) no-repeat 20px center;
+}
+.main .left h2:nth-of-type(2):hover{
+	background:url(../images/animation_03.jpg) no-repeat 20px center;
+	border-bottom:3px solid #fa9634;
+}
+.main .left h2:nth-of-type(3){
+	background:url(../images/sign_08.jpg) no-repeat 20px center;
+}
+.main .left h2:nth-of-type(3):hover{
+	background:url(../images/date_03.jpg) no-repeat 20px center;
+	border-bottom:3px solid #fa9634;
+}
+.main .left h2:nth-of-type(4){
+	background:url(../images/sign_10.jpg) no-repeat 20px center;
+}
+.main .left h2:nth-of-type(4):hover{
+	background:url(../images/PHP_07.jpg) no-repeat 20px center;
+	border-bottom:3px solid #fa9634;
+}
+.main .left h2:nth-of-type(5){
+	background:url(../images/sign_12.jpg) no-repeat 20px center;
+}
+.main .left h2:nth-of-type(5):hover{
+	background:url(../images/H5_07.jpg) no-repeat 20px center;
+	border-bottom:3px solid #fa9634;
+}
+.main .left h2:nth-of-type(6){
+	background:url(../images/sign_14.jpg) no-repeat 20px center;
+}
+.main .left h2:nth-of-type(6):hover{
+	background:url(../images/android_07.jpg) no-repeat 20px center;
+	border-bottom:3px solid #fa9634;
+}
+.main .left h2:nth-of-type(7){
+	background:url(../images/sign_18.jpg) no-repeat 20px center;
+}
+.main .left h2:nth-of-type(7):hover{
+	background:url(../images/artist_08.jpg) no-repeat 20px center;
+	border-bottom:3px solid #fa9634;
+}
+.main .left h2:nth-of-type(8){
+	background:url(../images/sign_21.jpg) no-repeat 20px center;
+}
+.main .left h2:nth-of-type(8):hover{
+	background:url(../images/student_07.jpg) no-repeat 20px center;
+	border-bottom:3px solid #fa9634;
+}
+.main .left h2:nth-of-type(9){
+	background:url(../images/sign_24.jpg) no-repeat 20px center;
+}
+.main .left h2:nth-of-type(9):hover{
+	background:url(../images/colledge_10.jpg) no-repeat 20px center;
+	border-bottom:3px solid #fa9634;
+}
+.main .left h2 a{
+	display:block;
+	padding-left:75px;
+	width:190px;
+	height:77px;
+	line-height:77px;
+	font-size:24px;
+	color:#222;
+	font-family:"microsoft yahei";
+	font-weight:normal;
+}
+.main .right{
+	margin-left:44px;
+	width:674px;
+	float:right;
+}
+.main .right h3:first-of-type{
+	margin-top:0;
+}
+.main .right h3{
+	height:18px;
+	font-size:18px;
+	margin-top:8px;
+	color:#fa9634;
+	font-family:"microsoft yahei";
+}
+.main .right p{
+	margin-top:7px;
+	line-height:29px;
+	font-size:16px;
+	font-weight:normal;
+	font-family:"microsoft yahei";
+}
+.main .right img{
+	width:100%;
+	margin-top:23px;
+	margin-bottom:17px;
+}
+/*footer开始*/
+.wrap-footer{
+	background:#333333;
+}
+ .wrap-footer .footer{
+	width:1001px;
+	padding:44px 0 53px 0;
+	margin:0 auto;
+}
+.footer ul li{
+	width:242px;
+	float:left;
+}
+.footer ul li:last-of-type{
+	width:265px;
+}
+.footer ul li p{
+	font-size:14px;
+	color:#fff;
+	font-family:"microsoft yahei";
+	line-height:30px;
+}
+.menu-lesson,.menu-work,.menu-star,.menu-job{
+	display:block;
+}
+#job-top,#job-bottom,#star-top,#star-bottom,#works-bottom,#works-top,
+#lesson-bottom,#lesson-top{
+	display:none;
+}
+body{
+	overflow-x:hidden;
+}
+
+
+

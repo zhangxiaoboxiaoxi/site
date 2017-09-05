@@ -1,0 +1,188 @@
+.wrap_header .header{
+	width:100%;
+	margin:0 auto;
+	background:#333333;
+	position:relative;
+}
+.wrap_header .header .logo{
+	width:25.2%;
+	float:left;
+	padding:3.1% 0 1% 1.5%;
+}
+.wrap_header .header .logo img{
+	width:100%;
+}
+.wrap_header .header nav,
+.wrap_header .header .word{
+	display:none;
+}
+.wrap_header .word{
+	display:block;
+	position:absolute;
+	color:#fff;
+	font-size:1em;
+	top:35%;
+	left:50%;
+}
+.wrap_header .header .menu-click{
+	width:7%;
+	position:absolute;
+	top:15px;
+	right:3%;
+}
+.wrap_header .header .menu-click img{
+	width:100%;
+}
+.menu-total{
+	width:100%;
+	/*z-index:1000;*/
+	float:right;
+	position:relative;
+}
+.menu-total li{
+	height:30px;
+	line-height:30px;
+	background:#5C5C5C;
+	width:25%;
+	float:left;
+	text-align:center;
+}
+.menu-total li a{
+	font-size:0.75em;
+	color:#DCDCDC;
+	font-family:"microsoft yahei";
+}
+.menu-total li a{
+	font-size:0.75em;
+	color:#DCDCDC;
+	font-family:"microsoft yahei";
+}
+.wrap_header .menu-total li:nth-of-type(3) a{
+	width:85%;
+	display:inline-block;
+	background:#85858D;
+}
+/*header结束*/
+
+/*.main开始*/
+.main{
+	padding:0 15px;
+	margin:0 auto;
+}
+.main .left{
+	width:100%;
+	margin:0 auto;
+}
+.main .left h2{
+	width:29.333%;
+	float:left;
+	margin-right:5%;
+	
+}
+.main .left h2:nth-of-type(6) span{
+	display:none;
+}
+.main .left h2:nth-of-type(3n){
+	margin-right:0;
+}
+.main .left h2 span{
+	display:none;
+}
+.main .left h2 a{
+	display:block;
+	width:100%;
+	font-size:16px;
+	color:#222;
+	font-family:"microsoft yahei";
+	font-weight:normal;
+	height:77px;
+	line-height:77px;
+	border-bottom:3px solid #fff;
+	text-align:center;
+	padding-top:50px;
+}
+.main .left h2:first-of-type a{
+	background:url(../images/sign_03.jpg) no-repeat center 20px;
+	border-bottom:3px solid #fa9634;
+}
+.main .left h2:nth-of-type(2) a{
+	background:url(../images/sign_06.jpg) no-repeat center 20px;
+}
+.main .left h2:nth-of-type(3) a{
+	background:url(../images/sign_08.jpg) no-repeat center 20px;
+}
+.main .left h2:nth-of-type(4) a{
+	background:url(../images/sign_10.jpg) no-repeat center 20px;
+}
+.main .left h2:nth-of-type(5) a{
+	background:url(../images/sign_12.jpg) no-repeat center 20px;
+}
+.main .left h2:nth-of-type(6) a{
+	background:url(../images/sign_14.jpg) no-repeat center 20px;
+}
+.main .left h2:nth-of-type(7) a{ 
+	background:url(../images/sign_18.jpg) no-repeat center 20px;
+}
+.main .left h2:nth-of-type(8) a{
+	background:url(../images/sign_21.jpg) no-repeat center 20px;
+}
+.main .left h2:nth-of-type(9) a{
+	background:url(../images/sign_24.jpg) no-repeat center 20px;
+}
+
+.main .right{
+	width:100%;
+	margin-bottom:40px;
+}
+.main .right h3{
+	height:25px;
+	line-height:25px;
+	font-size:18px;
+	margin-top:8px;
+	color:#fa9634;
+	font-family:"microsoft yahei";
+}
+.main .right p{
+	margin-top:7px;
+	line-height:29px;
+	font-size:16px;
+	font-weight:normal;
+	font-family:"microsoft yahei";
+}
+.main .right img{
+	width:100%;
+	margin-top:23px;
+	margin-bottom:17px;
+}
+/*footer开始*/
+.wrap-footer .footer{
+	padding:5% 4%;
+	width:92%;
+	margin:0 auto;
+	background:#333333;
+	padding-bottom:40px;
+}
+.wrap-footer ul li{
+	width:80%;
+	margin-bottom:3%;
+	margin-left:20%;
+}
+.wrap-footer ul li:nth-of-type(4){
+	width:100%;
+	margin-left:0;
+	text-align:center;
+	margin-bottom:3%;
+}
+.wrap-footer ul li p{	
+	font-size:1em;
+	color:#eafefd;
+	font-family:"microsoft yahei";
+	height:30px;
+	line-height:30px;
+}
+
+
+
+
+
+
